@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.header:global(.__wab_instance) {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.freeBox__rHzTh {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.sidebar:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  width: 231px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .sidebar:global(.__wab_instance) {
+    margin-right: 0px;
+    width: 80px;
+    flex-shrink: 0;
+  }
+}
+.freeBox__hB8Yr {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
